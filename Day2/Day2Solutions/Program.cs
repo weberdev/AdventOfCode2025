@@ -27,7 +27,14 @@ foreach (long[] SKUpair in SKUsets)
         if (digits % 2 == 0)
         {
             long half = digits / 2;
-            long tenfold = 10 ^ half;
+            long tenfold = (long)Math.Pow(10,(long)half);
+            long valHolder = i / tenfold;
+            if (i-valHolder == valHolder * tenfold)
+            {
+                Console.WriteLine(i);
+                total += i;
+            }
         }
     }
 }
+Console.WriteLine(total);

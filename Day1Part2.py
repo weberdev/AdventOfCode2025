@@ -1,33 +1,32 @@
-dialValue = 50
-count = 0
+dial = 50        # starting position
+count = 0        # number of times a click lands on 0
 
 with open("inputday1part1.txt") as file:
     for line in file:
+        line = line.strip()
+        if not line:
+            continue
+
         first = line[0]
-        num = int(line[1:])
-        old = dialValue
+        steps = int(line[1:])
 
-        # apply movement
+        pos = dial % 100
+
+        rotations = steps // 100
+        count += rotations
+        residue = steps % 100
+
         if first == "R":
-            dialValue += num
-        else:
-            dialValue -= num
 
-        # count crossings of 0 during rotation
-        diff = dialValue - old
+            if residue > 0 and pos != 0 and pos + residue >= 100:
+                count += 1
 
-        if diff > 0:  # moving right
-            count += (old // 100) != (dialValue // 100)
-        else:  # moving left
-            # integer division for negatives is tricky → use abs
-            count += (abs(old) // 100) != (abs(dialValue) // 100)
+            dial = (pos + residue) % 100
 
-        # count multiple full wraps
-        count += abs(diff) // 100
+        else: 
+            if residue > 0 and pos != 0 and pos - residue <= 0:
+                count += 1
 
-        # final landing check
-        dialValue %= 100
-        if dialValue == 0:
-            count += 1
+            dial = (pos - residue) % 100
 
 print(count)
