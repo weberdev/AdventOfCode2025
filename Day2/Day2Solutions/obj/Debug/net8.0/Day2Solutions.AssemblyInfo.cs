@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Day2Solutions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33ed8286e7c486cf59f8b4d587a7fba5bde84287")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2853080802a7455d0078d77e4197d1a7baabcd52")]
 [assembly: System.Reflection.AssemblyProductAttribute("Day2Solutions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Day2Solutions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
