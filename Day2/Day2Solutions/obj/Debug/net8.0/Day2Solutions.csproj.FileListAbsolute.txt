@@ -1,0 +1,15 @@
+C:\Users\Ian\PycharmProjects\AdventOfCode2025\Day2\Day2Solutions\obj\Debug\net8.0\Day2Solutions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ian\PycharmProjects\AdventOfCode2025\Day2\Day2Solutions\obj\Debug\net8.0\Day2Solutions.AssemblyInfoInputs.cache
+C:\Users\Ian\PycharmProjects\AdventOfCode2025\Day2\Day2Solutions\obj\Debug\net8.0\Day2Solutions.AssemblyInfo.cs
+C:\Users\Ian\PycharmProjects\AdventOfCode2025\Day2\Day2Solutions\obj\Debug\net8.0\Day2Solutions.csproj.CoreCompileInputs.cache
+C:\Users\Ian\PycharmProjects\AdventOfCode2025\Day2\Day2Solutions\obj\Debug\net8.0\Day2Solutions.sourcelink.json
+C:\Users\Ian\PycharmProjects\AdventOfCode2025\Day2\Day2Solutions\bin\Debug\net8.0\Day2Solutions.exe
+C:\Users\Ian\PycharmProjects\AdventOfCode2025\Day2\Day2Solutions\bin\Debug\net8.0\Day2Solutions.deps.json
+C:\Users\Ian\PycharmProjects\AdventOfCode2025\Day2\Day2Solutions\bin\Debug\net8.0\Day2Solutions.runtimeconfig.json
+C:\Users\Ian\PycharmProjects\AdventOfCode2025\Day2\Day2Solutions\bin\Debug\net8.0\Day2Solutions.dll
+C:\Users\Ian\PycharmProjects\AdventOfCode2025\Day2\Day2Solutions\bin\Debug\net8.0\Day2Solutions.pdb
+C:\Users\Ian\PycharmProjects\AdventOfCode2025\Day2\Day2Solutions\obj\Debug\net8.0\Day2Solutions.dll
+C:\Users\Ian\PycharmProjects\AdventOfCode2025\Day2\Day2Solutions\obj\Debug\net8.0\refint\Day2Solutions.dll
+C:\Users\Ian\PycharmProjects\AdventOfCode2025\Day2\Day2Solutions\obj\Debug\net8.0\Day2Solutions.pdb
+C:\Users\Ian\PycharmProjects\AdventOfCode2025\Day2\Day2Solutions\obj\Debug\net8.0\Day2Solutions.genruntimeconfig.cache
+C:\Users\Ian\PycharmProjects\AdventOfCode2025\Day2\Day2Solutions\obj\Debug\net8.0\ref\Day2Solutions.dll
