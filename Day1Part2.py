@@ -13,6 +13,8 @@ with open("inputday1part1.txt") as file:
                 count = count + rotation
         else:
             dialValue = dialValue - num
+            if dialValue ==0:
+                count = count + 1
             if dialValue <= 0:
                 rotation = abs(dialValue // 100)
                 count = count + rotation
