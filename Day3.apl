@@ -1,0 +1,1 @@
+txt ← ⊃⎕NGET 'inputday3.txt' 
